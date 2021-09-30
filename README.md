@@ -10,8 +10,10 @@ It's an Online buying and selling of tickets web application with Microservices 
 4) Ingress-nginx controller (Load Balancer)
 5) Typescript (lang)
 6) MongoDB
+7) Redis
 ### DevOps/Tools
 1) Git
 2) Docker 
 3) Kubernetes
+4) Jest (Unit Testing)
 

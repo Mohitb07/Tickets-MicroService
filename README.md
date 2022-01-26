@@ -1,4 +1,4 @@
-# TicKex
+# TicDev
 It's an Online buying and selling of tickets web application with Microservices Architecture
 ### Front-End
 1) NextJS (React application)

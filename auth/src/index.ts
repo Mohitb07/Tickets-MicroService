@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import {connect} from 'mongoose';
 import app from './app'
 
 const start = async () => {
@@ -6,7 +6,7 @@ const start = async () => {
         throw new Error('JWT_KEY must be defined')
     }
     try{
-        await mongoose.connect('mongodb://auth-mongo-srv:27017/auth')
+        await connect('mongodb://auth-mongo-srv:27017/auth')
         console.log('Connected to mongodb')
     }catch(err){
         console.log('Error', err)
